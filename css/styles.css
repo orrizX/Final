@@ -3,8 +3,10 @@
   padding: 0;
 }
 
+
+
 body {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 24px;
   background: #f0f0f0;
   color: #505050;
@@ -65,3 +67,5 @@ a {
     float: none;
   }
 }
+/* wall */
+
