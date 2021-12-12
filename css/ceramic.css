@@ -3,7 +3,7 @@
     padding: 0;
 }
 html {
-    background-color: #eefbf8;
+    background-color: #fbefee;
     background-image: radial-gradient(circle, hsla(0,0%,100%,.1), hsla(0,0%,0%,.75)),
                       linear-gradient(left, transparent 50%, hsla(0,0%,0%,.01) 50%);
     background-position: 50% 75%, 50% 50%;
