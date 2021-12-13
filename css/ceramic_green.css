@@ -12,9 +12,9 @@ html {
     font-size: 100%;
     min-height: 100%;
 }
-  /**********/
+
  /* Slider */
-/**********/
+
 
 .slider {
     background-color: #fff;
@@ -52,7 +52,7 @@ html {
 /* Mat */
 
 .slider:after {
-    background-color: #e2f5d9;
+    background-color: #eef5d9;
     bottom: -1.5em;
     box-shadow: 0 2px 1px hsla(0,0%,100%,.2),
                 0 -1px 1px 1px hsla(0,0%,0%,.4),
