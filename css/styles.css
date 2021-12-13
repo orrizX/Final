@@ -8,7 +8,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin: 24px;
-  background: #f0f0f0;
+  background: rgb(213,255,204);
+  background: linear-gradient(90deg, rgba(213,255,204,1) 0%, rgba(255,251,209,1) 52%, rgba(255,212,212,1) 100%);
   color: rgb(32, 32, 32);
 }
 
