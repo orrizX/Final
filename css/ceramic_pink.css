@@ -128,6 +128,9 @@ html {
 .slider:hover li:nth-child(4) label {
     left: 5em;
 }
+.slider:hover li:nth-child(5) label {
+    left: 6.5em;
+}
 
 /* Images */
 
