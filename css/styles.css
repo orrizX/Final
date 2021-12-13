@@ -60,6 +60,13 @@ a {
 nav ul {
 	list-style-type: none;
 	padding: 2px;
+  opacity: 0.1;
+  transition: 0.3s ease-out;
+}
+
+nav ul:hover {
+	opacity: 1;
+  transition: 0.3s ease-out;
 }
 
 nav ul li {
