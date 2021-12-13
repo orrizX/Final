@@ -147,3 +147,58 @@ html {
     visibility: visible;
     z-index: 10;
 }
+
+/* back button */
+
+nav ul {
+	list-style-type: none;
+	padding: 10px;
+    opacity: 0.1;
+    transition: 0.3s ease-out;
+}
+
+nav ul:hover {
+	opacity: 1;
+    transition: 0.3s ease-out;
+}
+
+nav ul li {
+	font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+	background-color: #ffffff;
+	border: none;
+	letter-spacing: 0.5px;
+	width: 2.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	position: absolute;
+	overflow: hidden;
+	margin: 0.5em;
+	cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  
+}
+
+nav ul li span {
+	color: rgb(228, 209, 209);
+	mix-blend-mode:color-dodge;
+}
+
+nav ul li::before {
+	content: '';
+	position: absolute;
+	width: 1.5em;
+	height: inherit;
+	background-color: rgb(88, 235, 88);
+	border-radius: 50%;
+	top: 0;
+	left: -0.75em;
+	transition: 1s ease-out;
+
+}
+
+nav ul li:hover::before {
+	transform: scale(4);
+    
+}
