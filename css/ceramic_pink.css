@@ -3,7 +3,8 @@
     padding: 0;
 }
 html {
-    background-color: #ffeeee;
+    background: rgb(255,238,238);
+    background: linear-gradient(90deg, rgba(255,238,238,1) 0%, rgba(252,176,176,1) 48%, rgba(255,121,136,1) 100%);
     background-image: radial-gradient(circle, hsla(0,0%,100%,.1), hsla(0,0%,0%,.75)),
                       linear-gradient(left, transparent 50%, hsla(0,0%,0%,.01) 50%);
     background-position: 50% 75%, 50% 50%;
