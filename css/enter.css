@@ -74,3 +74,8 @@ nav ul li:hover::before {
 	transform: scale(4);
     
 }
+
+p {
+    position:absolute;
+   
+}
