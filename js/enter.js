@@ -315,3 +315,19 @@ new Zdog.Dragger({
     viewRotation.y = dragStartRY - ( moveX / displaySize * TAU );
   },
 });
+
+// ----- weather ----- //
+$.getJSON("https://api.openweathermap.org/data/2.5/weather?q=New York&units=imperial&appid=ab85ba57bbbb423fb62bfb8201126ede", function(data) {
+
+console.log(data);
+
+
+var temp = Math.floor(data.main.temp);
+
+var weather = data.weather[0].main;
+
+
+$(".temp").append(temp  + 'F');
+
+$(".weather").append(weather );
+});
