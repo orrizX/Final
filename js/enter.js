@@ -9,11 +9,12 @@ var viewRotation = new Zdog.Vector();
 var displaySize;
 
 // colors
-var eggplant = '#636';
-var garnet = '#C25';
-var orange = '#E62';
-var gold = '#EA0';
-var yellow = '#ED0';
+var eggplant = 'rgb(155, 240, 255)';
+var garnet = 'rgb(155, 165, 255)';
+var orange = 'rgb(255, 155, 155)';
+var gold = 'rgb(255, 155, 217)';
+var yellow = 'rgb(218, 155, 255)';
+
 
 var illo = new Zdog.Illustration({
   element: illoElem,
@@ -42,15 +43,15 @@ var solids = [];
     diameter: 2,
     translate: { z: -1 },
     addTo: hourglass,
-    color: garnet,
-    backface: orange,
+    color: yellow,
+    backface: garnet,
     stroke: false,
   });
 
   hemi.copy({
     translate: { z: 1 },
     rotate: { y: TAU/2 },
-    color: eggplant,
+    color: orange,
     backface: gold,
   });
 
@@ -99,7 +100,7 @@ var solids = [];
   var hemi = new Zdog.Hemisphere({
     diameter: 2,
     addTo: sphere,
-    color: orange,
+    color: gold,
     backface: eggplant,
     stroke: false,
   });
@@ -120,8 +121,8 @@ var cylinder = new Zdog.Cylinder({
   addTo: illo,
   translate: { x: 4, y: -4 },
   // rotate: { x: TAU/4 },
-  color: gold,
-  backface: garnet,
+  color: garnet,
+  backface: gold,
   stroke: false,
 });
 
@@ -136,8 +137,8 @@ var cylinder = new Zdog.Cylinder({
     addTo: illo,
     translate: { x: -4, y: 4 },
     // rotate: { x: TAU/4 },
-    color: gold,
-    backface: garnet,
+    color: orange,
+    backface: gold,
     stroke: false,
   });
   
@@ -204,7 +205,7 @@ var cone = new Zdog.Anchor({
     translate: { y: height/2 },
     fill: true,
     stroke: false,
-    color: eggplant,
+    color: yellow,
     // backface: false,
   });
 
@@ -222,7 +223,7 @@ var cone = new Zdog.Anchor({
     triangle.copy({
       addTo: rotor2,
       translate: { y: -inradius },
-      color: [ gold, garnet, orange ][i],
+      color: [ eggplant, garnet, orange ][i],
     });
   }
 
@@ -244,14 +245,14 @@ var cone = new Zdog.Anchor({
     var hemi = new Zdog.Hemisphere({
       diameter: 2,
       addTo: sphere,
-      color: orange,
+      color: gold,
       backface: eggplant,
       stroke: false,
     });
   
     hemi.copy({
       rotate: { y: TAU/2 },
-      color: eggplant,
+      color: yellow,
       backface: orange,
     });
   
