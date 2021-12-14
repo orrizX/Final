@@ -28,7 +28,7 @@ var illo = new Zdog.Illustration({
 
 var solids = [];
 
-// ----- hourglass ----- //
+//hourglass//
 
 ( function() {
 
@@ -57,7 +57,7 @@ var solids = [];
 
 })();
 
-// ----- hourglass ----- //
+//hourglass//
 
 ( function() {
 
@@ -86,7 +86,7 @@ var solids = [];
   
   })();
 
-// ----- sphere ----- //
+//sphere//
 
 ( function() {
 
@@ -113,7 +113,7 @@ var solids = [];
 
 })();
 
-// ----- cylinder ----- //
+//cylinder//
 
 var cylinder = new Zdog.Cylinder({
   diameter: 2,
@@ -129,7 +129,7 @@ var cylinder = new Zdog.Cylinder({
 solids.push( cylinder );
 
 
-// ----- cylinder ----- //
+//cylinder//
 
 var cylinder = new Zdog.Cylinder({
     diameter: 2,
@@ -144,7 +144,7 @@ var cylinder = new Zdog.Cylinder({
   
   solids.push( cylinder );
 
-// ----- cone ----- //
+//cone//
 
 var cone = new Zdog.Anchor({
   addTo: illo,
@@ -163,7 +163,7 @@ new Zdog.Cone({
   backface: gold,
   stroke: false,
 });
-// ----- cone ----- //
+//cone//
 
 var cone = new Zdog.Anchor({
     addTo: illo,
@@ -182,7 +182,7 @@ var cone = new Zdog.Anchor({
     backface: gold,
     stroke: false,
   });
-// ----- tetrahedron ----- //
+//tetrahedron//
 
 ( function() {
 
@@ -206,7 +206,6 @@ var cone = new Zdog.Anchor({
     fill: true,
     stroke: false,
     color: yellow,
-    // backface: false,
   });
 
 
@@ -231,7 +230,7 @@ var cone = new Zdog.Anchor({
 
 })();
 
-// ----- sphere ----- //
+//sphere//
 
 ( function() {
 
@@ -259,7 +258,7 @@ var cone = new Zdog.Anchor({
   })();
 
 
-// -- animate --- //
+//animate//
 
 var keyframes = [
   { x:   0, y:   0 },
@@ -299,7 +298,7 @@ function update() {
   illo.updateGraph();
 }
 
-// ----- inputs ----- //
+//inputs//
 
 var dragStartRX, dragStartRY;
 
